@@ -23,6 +23,7 @@ header{
     height: 50px;
     width: 25%;
     background-color: rgb(255, 111, 0);
+    padding-top: 15px;
    
 }
 .col-50{
@@ -39,4 +40,22 @@ ul{
     display: flex;
     justify-content: space-around;
     color: white;
+}
+.container-main{
+    width: 75%;
+    margin: 0 auto;
+}
+.row-main{
+    width: 100%;
+    display: flex;
+}
+.col-33{
+    width: calc(100% / 3);
+}
+.content{
+    margin: 20px;
+}
+img{
+    height: 400px;
+    width: auto;
 }
