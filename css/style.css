@@ -48,14 +48,46 @@ ul{
 .row-main{
     width: 100%;
     display: flex;
+    
 }
 .col-33{
     width: calc(100% / 3);
 }
 .content{
     margin: 20px;
+    position: relative;
 }
 img{
     height: 400px;
     width: auto;
+}
+.label-heart{
+    width: 20px;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+}
+.label-red{
+    background-color: red;
+    width: 40px;
+    position: absolute;
+    top: 350px;
+}
+.label-green{
+    background-color: green;
+    width: 100px;
+    padding-left: 10px;
+    position: absolute;
+    top: 350px;
+}
+.position{
+    background-color: green;
+    width: 100px;
+    padding-left: 10px;
+    position: absolute;
+    top: 350px;
+    right: 150px;
+
 }
