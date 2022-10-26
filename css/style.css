@@ -74,6 +74,7 @@ img{
     width: 40px;
     position: absolute;
     top: 350px;
+    color: white;
 }
 .label-green{
     background-color: green;
@@ -81,6 +82,7 @@ img{
     padding-left: 10px;
     position: absolute;
     top: 350px;
+    color: white;
 }
 .position{
     background-color: green;
@@ -89,5 +91,15 @@ img{
     position: absolute;
     top: 350px;
     right: 150px;
-
+    color: white;
+}
+h6{
+    color: grey;
+}
+h5{
+    color: red;
+}
+.old-price{
+    color: grey;
+    text-decoration-line: line-through;
 }
