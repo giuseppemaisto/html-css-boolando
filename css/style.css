@@ -57,9 +57,16 @@ ul{
     margin: 20px;
     position: relative;
 }
-img{
+.first-img{
     height: 400px;
     width: auto;
+    position: absolute;
+    z-index: 2;
+}
+.second-img{
+    height: 400px;
+    width: auto;
+   
 }
 .label-heart{
     width: 20px;
@@ -68,6 +75,7 @@ img{
     position: absolute;
     top: 10px;
     right: 25px;
+    z-index: 3;
 }
 .label-red{
     background-color: red;
@@ -75,6 +83,7 @@ img{
     position: absolute;
     top: 350px;
     color: white;
+    z-index: 3;
 }
 .label-green{
     background-color: green;
@@ -83,6 +92,7 @@ img{
     position: absolute;
     top: 350px;
     color: white;
+    z-index: 3;
 }
 .position{
     background-color: green;
@@ -102,4 +112,8 @@ h5{
 .old-price{
     color: grey;
     text-decoration-line: line-through;
+}
+
+.first-img:hover{
+    opacity: 0;
 }
