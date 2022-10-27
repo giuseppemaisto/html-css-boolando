@@ -40,8 +40,9 @@ ul{
     display: flex;
     justify-content: space-around;
     color: white;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+    
 .container-main{
     width: 75%;
     margin: 0 auto;
@@ -52,7 +53,8 @@ ul{
     
 }
 .icone{
-   justify-content: space-around;
+    margin-right: 100px;
+    margin-left: 50px;
 }
 .col-33{
     width: calc(100% / 3);
@@ -81,6 +83,9 @@ ul{
     right: 25px;
     z-index: 3;
 }
+.label-heart:hover{
+    color: red
+};
 .label-red{
     background-color: red;
     width: 40px;
@@ -159,6 +164,13 @@ footer{
     font-size: 10px;
     color: white;
     line-height: 10px;
+}
+.list-footer-icone{
+    font-size: 10px;
+    color: white;
+    line-height: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 .booleando{
     color: white;
