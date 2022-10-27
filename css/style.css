@@ -51,6 +51,9 @@ ul{
     display: flex;
     
 }
+.icone{
+   justify-content: space-around;
+}
 .col-33{
     width: calc(100% / 3);
 }
